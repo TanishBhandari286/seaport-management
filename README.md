@@ -25,10 +25,39 @@ seaport_project/
 │   └── seaport_classes.cpp
 ├── obj/           # Object files
 ├── bin/           # Executable
-└── Makefile       # Build configuration
+├── Makefile       # Build configuration
+└── run.sh         # Automated setup and run script
 ```
 
-## Installation
+## Quick Start (Recommended)
+
+The easiest way to get started is to use the automated run script:
+
+1. Download the run script:
+```bash
+curl -O https://raw.githubusercontent.com/TanishBhandari286/seaport-management/main/run.sh
+```
+
+2. Make the script executable:
+```bash
+chmod +x run.sh
+```
+
+3. Run the script:
+```bash
+./run.sh
+```
+
+The script will automatically:
+- Check for required dependencies
+- Create necessary directories
+- Clone the repository (if needed)
+- Compile the project
+- Run the program
+
+## Manual Installation
+
+If you prefer to set up the project manually:
 
 1. Open your terminal and navigate to where you want to store the project:
 ```bash
